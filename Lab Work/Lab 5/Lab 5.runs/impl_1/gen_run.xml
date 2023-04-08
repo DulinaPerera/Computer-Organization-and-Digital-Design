@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1680940142">
+  <File Type="PA-TCL" Name="Slow_Clk.tcl"/>
+  <File Type="REPORTS-TCL" Name="Slow_Clk_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="Slow_Clk.msk"/>
+  <File Type="RDI-RDI" Name="Slow_Clk.vdi"/>
+  <File Type="BG-BIT" Name="Slow_Clk.bit"/>
+  <File Type="BG-DRC" Name="Slow_Clk.drc"/>
+  <File Type="BG-BGN" Name="Slow_Clk.bgn"/>
+  <File Type="BG-BIN" Name="Slow_Clk.bin"/>
+  <File Type="BITSTR-RBT" Name="Slow_Clk.rbt"/>
+  <File Type="BITSTR-NKY" Name="Slow_Clk.nky"/>
+  <File Type="BITSTR-BMM" Name="Slow_Clk_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Slow_Clk.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Slow_Clk.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Slow_Clk.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="Slow_Clk.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Slow_Clk_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="Slow_Clk_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Slow_Clk_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Slow_Clk_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="Slow_Clk_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="Slow_Clk_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Slow_Clk_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Slow_Clk_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Slow_Clk_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Slow_Clk_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Slow_Clk_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Slow_Clk_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="Slow_Clk.pdi"/>
+  <File Type="RCFI_FILE" Name="Slow_Clk.rcfi"/>
+  <File Type="CFI_FILE" Name="Slow_Clk.cfi"/>
+  <File Type="RNPI_FILE" Name="Slow_Clk.rnpi"/>
+  <File Type="NPI_FILE" Name="Slow_Clk.npi"/>
+  <File Type="RBD_FILE" Name="Slow_Clk.rbd"/>
+  <File Type="ROUTE-RQS" Name="Slow_Clk_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Slow_Clk_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Slow_Clk.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/D_FF.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Slow_Clk"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/D_FF.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>
