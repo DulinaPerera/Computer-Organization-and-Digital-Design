@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Arithmetic Unit.srcs/sources_1/new/ArithmeticUnit.vhd" \
+"../../../../../../../../Experiments/RCA/RCA.srcs/sources_1/new/FullAdder.vhd" \
+"../../../../../../../../Experiments/RCA/RCA.srcs/sources_1/new/HalfAdder.vhd" \
+"../../../../../../../../Experiments/RCA/RCA.srcs/sources_1/new/RCA.vhd" \
+"../../../../../../../5. Counter/Lab 5/Lab 5.srcs/sources_1/new/Slow_Clk.vhd" \
+"../../../../Arithmetic Unit.srcs/sources_1/new/StorageRegister.vhd" \
+"../../../../Arithmetic Unit.srcs/sim_1/new/ArithmeticUnit_Simulation.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Education/Campus Documents/4. Semester 02/Computer Organization and Digital Design/Lab Materials/6. Arithmetic Unit/Lab 6/Arithmetic Unit/Arithmetic Unit.srcs/sources_1/new/ArithmeticUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ArithmeticUnit'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Education/Campus Documents/4. Semester 02/Computer Organization and Digital Design/Lab Materials/6. Arithmetic Unit/Lab 6/Arithmetic Unit/Arithmetic Unit.srcs/sources_1/new/StorageRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'StorageRegister'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Education/Campus Documents/4. Semester 02/Computer Organization and Digital Design/Lab Materials/6. Arithmetic Unit/Lab 6/Arithmetic Unit/Arithmetic Unit.srcs/sim_1/new/ArithmeticUnit_Simulation.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ArithmeticUnit_Simulation'
