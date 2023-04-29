@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ArithmeticUnit_Simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ArithmeticUnit_Simulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,688.426 ns"></ZoomEndTime>
+      <Cursor1Time time="1,400.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="166"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/ArithmeticUnit_Simulation/inputWord" type="array">
+      <obj_property name="ElementShortName">inputWord[3:0]</obj_property>
+      <obj_property name="ObjectShortName">inputWord[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/ArithmeticUnit_Simulation/sum" type="array">
+      <obj_property name="ElementShortName">sum[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/ArithmeticUnit_Simulation/registerSelect" type="logic">
+      <obj_property name="ElementShortName">registerSelect</obj_property>
+      <obj_property name="ObjectShortName">registerSelect</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ArithmeticUnit_Simulation/clockSignal" type="logic">
+      <obj_property name="ElementShortName">clockSignal</obj_property>
+      <obj_property name="ObjectShortName">clockSignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ArithmeticUnit_Simulation/zeroFlag" type="logic">
+      <obj_property name="ElementShortName">zeroFlag</obj_property>
+      <obj_property name="ObjectShortName">zeroFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ArithmeticUnit_Simulation/carryFlag" type="logic">
+      <obj_property name="ElementShortName">carryFlag</obj_property>
+      <obj_property name="ObjectShortName">carryFlag</obj_property>
+   </wvobject>
+</wave_config>
